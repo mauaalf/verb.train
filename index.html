@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>German Verb Trainer</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="manifest" href="manifest.json">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+</head>
+<body>
+
+<h1>German Verb Trainer</h1>
+
+<script>
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker.register("service-worker.js");
+}
+</script>
+
+<!-- SELEZIONE TEMPI -->
+<div id="selezionaTempi">
+
+  <label>
+    <input type="checkbox" value="praesens" checked>
+    <span>Präsens</span>
+  </label>
+
+  <label>
+    <input type="checkbox" value="praeteritum" checked>
+    <span>Präteritum</span>
+  </label>
+
+  <label>
+    <input type="checkbox" value="perfekt" checked>
+    <span>Perfekt</span>
+  </label>
+
+  <label>
+    <input type="checkbox" value="plusquamperfekt" checked>
+    <span>Plusquamperfekt</span>
+  </label>
+
+  <label>
+    <input type="checkbox" value="futur1" checked>
+    <span>Futur 1</span>
+  </label>
+
+  <label>
+    <input type="checkbox" value="futur2" checked>
+    <span>Futur 2</span>
+  </label>
+
+  <label>
+    <input type="checkbox" value="imperativ" checked>
+    <span>Imperativ</span>
+  </label>
+
+  <label>
+    <input type="checkbox" value="partizip1" checked>
+    <span>Partizip 1</span>
+  </label>
+
+  <label>
+    <input type="checkbox" value="partizip2" checked>
+    <span>Partizip 2</span>
+  </label>
+
+</div>
+
+<!-- PROGRESS -->
+<div id="progressContainer">
+  <div id="progressFill"></div>
+  <span id="counter">Verbo 1 di 199</span>
+</div>
+
+
+
+<!-- VERBO + CERCA -->
+<div id="verbWrapper" style="display:flex; align-items:center; gap:10px; margin:15px 0;">
+  <h1 id="verbDisplay" style="margin:0; flex-shrink:0;"></h1>
+  <input type="text" id="inputVerbo" placeholder="Cerca verbo…">
+  <button onclick="cercaVerbo()">Seleziona</button>
+
+<!-- BOTTONE -->
+<div style="margin: 15px 0; display:flex; justify-content:right;">
+  <button onclick="apriPopupVerbi()">Scegli verbi</button>
+</div>
+
+</div>
+
+
+
+<!-- POPUP -->
+<div id="popupVerbi" class="modal hidden">
+
+  <div class="modal-backdrop" onclick="chiudiPopupVerbi()"></div>
+
+  <div class="modal-content">
+    <h2>Seleziona i verbi</h2>
+
+    <input type="text" id="filtroVerbi" placeholder="Cerca verbo…">
+
+    <div id="listaVerbi" class="lista-verbi">
+      <!-- popolata via JS -->
+    </div>
+
+    <div class="modal-actions">
+      <button type="button" onclick="selezionaTuttiVerbi()">Tutti</button>
+      <button type="button" onclick="deselezionaTuttiVerbi()">Nessuno</button>
+      <button type="button" onclick="confermaVerbi()">Conferma</button>
+      <button type="button" onclick="chiudiPopupVerbi()">Annulla</button>
+    </div>
+  </div>
+
+</div>  
+
+
+</div>
+</div>
+
+<!-- TABELLA DINAMICA -->
+<div id="tableContainer" class="table-container"></div>
+
+<!-- CONTROLLI -->
+<div class="controls">
+  <button onclick="checkAll()">Controlla</button>
+  <button onclick="prossimoVerbo()">Successivo</button>
+  <button onclick="precedenteVerbo()">Precedente</button>
+  <button onclick="nuovaDomandaCasuale()">Casuale</button>
+  <button onclick="resetVerbo()">Reset campi</button>
+  <button onclick="ripassoErrori()">Ripassa errori</button>
+  <!-- Nuovi pulsanti funzionali -->
+  <button onclick="resetSessione()" style="background: linear-gradient(145deg, #ff7f7f, #ff4c4c); color: #fff;">Reset Completo</button>
+  <button onclick="mostraHint()" style="background: linear-gradient(145deg, #70ffb8, #4cff9e); color: #1e1f26;">Mostra Hint</button>
+</div>
+
+<!-- FEEDBACK -->
+<div id="feedback"></div>
+
+
+
+<script src="script.js"></script>
+</body>
+</html>

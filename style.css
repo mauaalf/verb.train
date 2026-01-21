@@ -1,0 +1,305 @@
+/* ===== BASE ===== */
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #1e1f26;
+  color: #e0e0e0;
+}
+
+h1 {
+  margin-bottom: 15px;
+  color: #ffffff;
+}
+
+.modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.7);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+.modal-content {
+  background: #2a2c36;
+  padding: 20px;
+  border-radius: 14px;
+  width: 400px;
+  max-height: 80vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.lista-verbi {
+  margin: 10px 0;
+  overflow-y: auto;
+  flex: 1;
+}
+
+.lista-verbi label {
+  display: flex;
+  gap: 8px;
+  padding: 4px;
+  cursor: pointer;
+}
+
+.modal-actions {
+  display: flex;
+  justify-content: space-between;
+  gap: 6px;
+}
+
+
+/* ===== PROGRESS BAR GLASS ===== */
+#progressContainer {
+  position: fixed;
+  top: 10px;
+  right: 40px;
+  width: 320px;
+  height: 28px;
+  background: rgba(42, 44, 54, 0.5);
+  backdrop-filter: blur(6px);
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#progressFill {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 0%;
+  background: linear-gradient(90deg, rgba(160,216,255,0.8), rgba(112,191,255,0.8));
+  border-radius: 16px 0 0 16px;
+  transition: width 0.6s ease-in-out;
+  box-shadow: inset 0 2px 6px rgba(255,255,255,0.2),
+              0 0 8px rgba(160,216,255,0.3);
+  z-index: 1;
+
+  /* effetto glow pulsante */
+  animation: glowPulse 2s infinite ease-in-out;
+}
+
+/* animazione glow morbida */
+@keyframes glowPulse {
+  0% {
+    box-shadow: inset 0 2px 6px rgba(255,255,255,0.2),
+                0 0 8px rgba(160,216,255,0.3);
+  }
+  50% {
+    box-shadow: inset 0 2px 6px rgba(255,255,255,0.2),
+                0 0 16px rgba(160,216,255,0.5);
+  }
+  100% {
+    box-shadow: inset 0 2px 6px rgba(255,255,255,0.2),
+                0 0 8px rgba(160,216,255,0.3);
+  }
+}
+#counter {
+  position: relative;
+  z-index: 2;
+  font-size: 13px;
+  font-weight: 600;
+  color: #f0f0f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  pointer-events: none;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.5);
+}
+
+/* ===== TABLE ===== */
+.table-container {
+  overflow-x: auto;
+  margin-bottom: 15px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  min-width: 900px;
+  background: #2a2c36;
+  border-radius: 12px;
+}
+
+th, td {
+  border: 1px solid #3b3e4b;
+  padding: 8px 12px;
+  text-align: center;
+  border-radius: 6px;
+}
+
+th {
+  background-color: #373945;
+  color: #ffffff;
+}
+
+tr:nth-child(even) {
+  background-color: #242631;
+}
+
+/* ===== INPUT ===== */
+input {
+  width: 90px;
+  padding: 6px;
+  text-align: center;
+  background-color: #2a2c36;
+  color: #ffffff;
+  border: 1px solid #444857;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+input:focus {
+  outline: none;
+  border-color: #a0d8ff;
+  box-shadow: 0 0 8px rgba(160,216,255,0.5);
+}
+
+/* ===== FEEDBACK ===== */
+#feedback {
+  margin-top: 15px;
+  background: linear-gradient(145deg, #242631, #2a2c36);
+  padding: 14px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.4);
+  white-space: pre-line;
+}
+
+/* ===== RISULTATI ===== */
+.correct {
+  background-color: #3e6f4e;
+  color: #e6f4ea;
+  border-radius: 6px;
+  padding: 2px 4px;
+}
+
+.wrong {
+  background-color: #7b3e3e;
+  color: #ffe6e6;
+  border-radius: 6px;
+  padding: 2px 4px;
+}
+
+/* ===== BUTTONS ===== */
+button {
+  margin: 6px 4px;
+  padding: 8px 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 12px;
+  background: linear-gradient(145deg, #70bfff, #a0d8ff);
+  color: #1e1f26;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  filter: brightness(1.05);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* ===== CONTROLS ===== */
+.controls {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  align-items: center;
+}
+
+/* ===== CHECKBOX COME BUTTON ===== */
+#selezionaTempi label {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  padding: 1px 1px;
+  background: #2a2c36;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 14px;
+  color: #e0e0e0;
+  transition: all 0.3s ease;
+}
+
+#selezionaTempi label:hover {
+  background: #3a3c49;
+}
+
+/* Nascondi input vero */
+#selezionaTempi input[type="checkbox"] {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* Span che mostra lo stato */
+#selezionaTempi label span {
+  position: relative;
+  padding: 4px 8px;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+/* Stato selezionato */
+#selezionaTempi input[type="checkbox"]:checked + span {
+  background: linear-gradient(145deg, #70bfff, #a0d8ff);
+  color: #1e1f26;
+  font-weight: 600;
+  box-shadow: 0 2px 8px rgba(112,191,255,0.5);
+}
+
+/* Stato non selezionato */
+#selezionaTempi input[type="checkbox"] + span {
+  background: #2a2c36;
+  color: #e0e0e0;
+}
+
+
+
+/* ===== BOTTONI CONTROLLI ===== */
+.controls button {
+  margin: 6px 4px;
+  padding: 10px 18px;
+  cursor: pointer;
+  border: none;
+  border-radius: 12px;
+  background: linear-gradient(145deg, #70bfff, #a0d8ff);
+  color: #1e1f26;
+  font-weight: 600;
+  font-size: 14px;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+}
+
+.controls button:hover {
+  filter: brightness(1.1);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+}
+
+.controls button:active {
+  transform: translateY(1px);
+}
+
+/* ===== HINT ===== */
+.hint {
+  background-color: #444857 !important;
+  color: #a0d8ff !important;
+}
+
+/* ===== ADATTAMENTO PER LA TABELLA ===== */
+.table-container table input {
+  transition: all 0.3s ease;
+}
+
+.table-container table input:focus {
+  border-color: #70bfff;
+  box-shadow: 0 0 6px rgba(112,191,255,0.4);
+}
