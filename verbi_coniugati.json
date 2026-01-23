@@ -4,7 +4,7 @@
   "hilfsverb": "haben",
   "praesens": {
     "ich": "heiratxe",
-    "du": "heiratest",
+    "du": "heiratesxxxxxxt",
     "er": "heiratet",
     "wir": "heiraten",
     "ihr": "heiratet",
@@ -9652,4 +9652,5 @@
     },
     "partizip1": ""
   }
+
 ]
