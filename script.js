@@ -12,7 +12,7 @@ let verbiErrore = [];
 let tempiSelezionati = [...tempi];
 
 // -------------------- CARICAMENTO JSON --------------------
-fetch("verbi_coniugati.json")
+fetch("verbi_coniugatiPROVA.json")
   .then(r => r.json())
   .then(data => {
     verbiTutti = data;
@@ -392,3 +392,4 @@ function confermaVerbi() {
   resetSessione();
   chiudiPopupVerbi();
 }
+
