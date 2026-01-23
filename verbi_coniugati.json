@@ -1,239 +1,239 @@
 [
   {
-    "infinitiv": "heiraten",
-    "hilfsverb": "haben",
-    "praesens": {
-      "ich": "heirate",
-      "du": "heiratest",
-      "er": "heiratet",
-      "wir": "heiraten",
-      "ihr": "heiratet",
-      "sie": "heiraten"
-    },
-    "praeteritum": {
-      "ich": "heiratete",
-      "du": "heiratetest",
-      "er": "heiratete",
-      "wir": "heirateten",
-      "ihr": "heiratetet",
-      "sie": "heirateten"
-    },
-    "perfekt": {
-      "ich": "habe geheiratet",
-      "du": "hast geheiratet",
-      "er": "hat geheiratet",
-      "wir": "haben geheiratet",
-      "ihr": "habt geheiratet",
-      "sie": "haben geheiratet"
-    },
-    "plusquamperfekt": {
-      "ich": "hatte geheiratet",
-      "du": "hattest geheiratet",
-      "er": "hatte geheiratet",
-      "wir": "hatten geheiratet",
-      "ihr": "hattet geheiratet",
-      "sie": "hatten geheiratet"
-    },
-    "futur1": {
-      "ich": "werde heiraten",
-      "du": "wirst heiraten",
-      "er": "wird heiraten",
-      "wir": "werden heiraten",
-      "ihr": "werdet heiraten",
-      "sie": "werden heiraten"
-    },
-    "futur2": {
-      "ich": "werde geheiratet haben",
-      "du": "wirst geheiratet haben",
-      "er": "wird geheiratet haben",
-      "wir": "werden geheiratet haben",
-      "ihr": "werdet geheiratet haben",
-      "sie": "werden geheiratet haben"
-    },
-    "imperativ": {
-      "du": "heirat/heirate",
-      "ihr": "heiratet",
-      "Sie": "heiraten"
-    },
-    "partizip1": "",
-    "partizip2": ""
+  "infinitiv": "heiraten",
+  "hilfsverb": "haben",
+  "praesens": {
+    "ich": "heiratxe",
+    "du": "heiratest",
+    "er": "heiratet",
+    "wir": "heiraten",
+    "ihr": "heiratet",
+    "sie": "heiraten"
   },
+  "praeteritum": {
+    "ich": "heiratete",
+    "du": "heiratetest",
+    "er": "heiratete",
+    "wir": "heirateten",
+    "ihr": "heiratetet",
+    "sie": "heirateten"
+  },
+  "perfekt": {
+    "ich": "habe geheiratet",
+    "du": "hast geheiratet",
+    "er": "hat geheiratet",
+    "wir": "haben geheiratet",
+    "ihr": "habt geheiratet",
+    "sie": "haben geheiratet"
+  },
+  "plusquamperfekt": {
+    "ich": "hatte geheiratet",
+    "du": "hattest geheiratet",
+    "er": "hatte geheiratet",
+    "wir": "hatten geheiratet",
+    "ihr": "hattet geheiratet",
+    "sie": "hatten geheiratet"
+  },
+  "futur1": {
+    "ich": "werde heiraten",
+    "du": "wirst heiraten",
+    "er": "wird heiraten",
+    "wir": "werden heiraten",
+    "ihr": "werdet heiraten",
+    "sie": "werden heiraten"
+  },
+  "futur2": {
+    "ich": "werde geheiratet haben",
+    "du": "wirst geheiratet haben",
+    "er": "wird geheiratet haben",
+    "wir": "werden geheiratet haben",
+    "ihr": "werdet geheiratet haben",
+    "sie": "werden geheiratet haben"
+  },
+  "imperativ": {
+    "du": "heirat/heirate",
+    "ihr": "heiratet",
+    "Sie": "heiraten"
+  },
+  "partizip1": "heiratend",
+  "partizip2": "geheiratet"
+},
   {
     "infinitiv": "erziehen",
     "hilfsverb": "haben",
     "praesens": {
-      "ich": "",
-      "du": "",
-      "er": "",
-      "wir": "",
-      "ihr": "",
-      "sie": ""
+      "ich": "erziehe",
+      "du": "erziehst",
+      "er": "erzieht",
+      "wir": "erziehen",
+      "ihr": "erzieht",
+      "sie": "erziehen"
     },
     "praeteritum": {
-      "ich": "",
-      "du": "",
-      "er": "",
-      "wir": "",
-      "ihr": "",
-      "sie": ""
+      "ich": "erzog",
+      "du": "erzogst",
+      "er": "erzog",
+      "wir": "erzogen",
+      "ihr": "erzogt",
+      "sie": "erzogen"
     },
     "perfekt": {
-      "ich": "",
-      "du": "",
-      "er": "",
-      "wir": "",
-      "ihr": "",
-      "sie": ""
+      "ich": "habe erzogen",
+      "du": "hast erzogen",
+      "er": "hat erzogen",
+      "wir": "haben erzogen",
+      "ihr": "habt erzogen",
+      "sie": "haben erzogen"
     },
     "plusquamperfekt": {
-      "ich": "",
-      "du": "",
-      "er": "",
-      "wir": "",
-      "ihr": "",
-      "sie": ""
+      "ich": "hatte erzogen",
+      "du": "hattest erzogen",
+      "er": "hatte erzogen",
+      "wir": "hatten erzogen",
+      "ihr": "hattet erzogen",
+      "sie": "hatten erzogen"
     },
     "futur1": {
-      "ich": "",
-      "du": "",
-      "er": "",
-      "wir": "",
-      "ihr": "",
-      "sie": ""
+      "ich": "werde erziehen",
+      "du": "wirst erziehen",
+      "er": "wird erziehen",
+      "wir": "werden erziehen",
+      "ihr": "werdet erziehen",
+      "sie": "werden erziehen"
     },
     "futur2": {
-      "ich": "",
-      "du": "",
-      "er": "",
-      "wir": "",
-      "ihr": "",
-      "sie": ""
+      "ich": "werde erzogen",
+      "du": "wirst erzogen",
+      "er": "wird erzogen",
+      "wir": "werden erzogen",
+      "ihr": "werdet erzogen",
+      "sie": "werden erzogen"
     },
     "imperativ": {
-      "du": "",
-      "ihr": "",
-      "Sie": ""
+      "du": "erzieh/erziehe",
+      "ihr": "erzieht",
+      "Sie": "erziehen"
     },
-    "partizip1": "",
-    "partizip2": ""
+    "partizip1": "erziehend",
+    "partizip2": "erzogen"
   },
   {
     "infinitiv": "servieren",
     "hilfsverb": "haben",
     "praesens": {
-      "ich": "",
-      "du": "",
-      "er": "",
-      "wir": "",
-      "ihr": "",
-      "sie": ""
+      "ich": "serviere",
+      "du": "servierst",
+      "er": "serviert",
+      "wir": "servieren",
+      "ihr": "serviert",
+      "sie": "servieren"
     },
     "praeteritum": {
-      "ich": "",
-      "du": "",
-      "er": "",
-      "wir": "",
-      "ihr": "",
-      "sie": ""
+      "ich": "servierte",
+      "du": "serviertest",
+      "er": "servierte",
+      "wir": "servierten",
+      "ihr": "serviertet",
+      "sie": "servierten"
     },
     "perfekt": {
-      "ich": "",
-      "du": "",
-      "er": "",
-      "wir": "",
-      "ihr": "",
-      "sie": ""
+      "ich": "habe serviert",
+      "du": "hast serviert",
+      "er": "hat serviert",
+      "wir": "haben serviert",
+      "ihr": "habt serviert",
+      "sie": "haben serviert"
     },
     "plusquamperfekt": {
-      "ich": "",
-      "du": "",
-      "er": "",
-      "wir": "",
-      "ihr": "",
-      "sie": ""
+      "ich": "hatte serviert",
+      "du": "hattest serviert",
+      "er": "hatte serviert",
+      "wir": "hatten serviert",
+      "ihr": "hattet serviert",
+      "sie": "hatten serviert"
     },
     "futur1": {
-      "ich": "werde heiraten",
-      "du": "wirst heiraten",
-      "er": "wird heiraten",
-      "wir": "werden heiraten",
-      "ihr": "werdet heiraten",
-      "sie": "werden heiraten"
+      "ich": "werde servieren",
+      "du": "wirst servieren",
+      "er": "wird servieren",
+      "wir": "werden servieren",
+      "ihr": "werdet servieren",
+      "sie": "werden servieren"
     },
     "futur2": {
-      "ich": "",
-      "du": "",
-      "er": "",
-      "wir": "",
-      "ihr": "",
-      "sie": ""
+      "ich": "werde serviert haben",
+      "du": "wirst serviert haben",
+      "er": "wird serviert haben",
+      "wir": "werden serviert haben",
+      "ihr": "werdet serviert haben",
+      "sie": "werden serviert haben"
     },
     "imperativ": {
-      "du": "",
-      "ihr": "",
-      "Sie": ""
+      "du": "servier/serviere",
+      "ihr": "serviert",
+      "Sie": "servieren"
     },
-    "partizip1": "",
-    "partizip2": ""
+    "partizip1": "servierend",
+    "partizip2": "serviert"
   },
   {
     "infinitiv": "bestellen",
     "hilfsverb": "haben",
     "praesens": {
-      "ich": "",
-      "du": "",
-      "er": "",
-      "wir": "",
-      "ihr": "",
-      "sie": ""
+      "ich": "bestelle",
+      "du": "bestellst",
+      "er": "bestellt",
+      "wir": "bestellen",
+      "ihr": "bestellt",
+      "sie": "bestellen"
     },
     "praeteritum": {
-      "ich": "",
-      "du": "",
-      "er": "",
-      "wir": "",
-      "ihr": "",
-      "sie": ""
+      "ich": "bestellte",
+      "du": "bestelltest",
+      "er": "bestellte",
+      "wir": "bestellten",
+      "ihr": "bestelltet",
+      "sie": "bestellten"
     },
     "perfekt": {
-      "ich": "",
-      "du": "",
-      "er": "",
-      "wir": "",
-      "ihr": "",
-      "sie": ""
+      "ich": "habe bestellt",
+      "du": "hast bestellt",
+      "er": "hat bestellt",
+      "wir": "haben bestellt",
+      "ihr": "habt bestellt",
+      "sie": "haben bestellt"
     },
     "plusquamperfekt": {
-      "ich": "",
-      "du": "",
-      "er": "",
-      "wir": "",
-      "ihr": "",
-      "sie": ""
+      "ich": "hatte bestellt",
+      "du": "hattest bestellt",
+      "er": "hatte bestellt",
+      "wir": "hatten bestellt",
+      "ihr": "hattet bestellt",
+      "sie": "hatten bestellt"
     },
     "futur1": {
-      "ich": "werde heiraten",
-      "du": "wirst heiraten",
-      "er": "wird heiraten",
-      "wir": "werden heiraten",
-      "ihr": "werdet heiraten",
-      "sie": "werden heiraten"
+      "ich": "werde bestellen",
+      "du": "wirst bestellen",
+      "er": "wird bestellen",
+      "wir": "werden bestellen",
+      "ihr": "werdet bestellen",
+      "sie": "werden bestellen"
     },
     "futur2": {
-      "ich": "",
-      "du": "",
-      "er": "",
-      "wir": "",
-      "ihr": "",
-      "sie": ""
+      "ich": "werde bestellt haben",
+      "du": "wirst bestellt haben",
+      "er": "wird bestellt haben",
+      "wir": "werden bestellt haben",
+      "ihr": "werdet bestellt haben ",
+      "sie": "werden bestellt haben"
     },
     "imperativ": {
-      "du": "",
-      "ihr": "",
-      "Sie": ""
+      "du": "bestell/bestelle",
+      "ihr": "bestellt",
+      "Sie": "bestellen"
     },
-    "partizip1": "",
-    "partizip2": ""
+    "partizip1": "bestellend",
+    "partizip2": "bestellt"
   },
   {
     "infinitiv": "zahlen",
