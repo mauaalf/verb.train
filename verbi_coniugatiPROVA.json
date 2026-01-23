@@ -1,0 +1,61 @@
+[
+  {
+    "infinitiv": "heiraten",
+    "hilfsverb": "haben",
+    "praesens": {
+      "ich": "heirate",
+      "du": "heiratest",
+      "er": "heiratet",
+      "wir": "heiraten",
+      "ihr": "heiratet",
+      "sie": "heiraten"
+    },
+    "praeteritum": {
+      "ich": "heiratete",
+      "du": "heiratetest",
+      "er": "heiratete",
+      "wir": "heirateten",
+      "ihr": "heiratetet",
+      "sie": "heirateten"
+    },
+    "perfekt": {
+      "ich": "habe geheiratet",
+      "du": "hast geheiratet",
+      "er": "hat geheiratet",
+      "wir": "haben geheiratet",
+      "ihr": "habt geheiratet",
+      "sie": "haben geheiratet"
+    },
+    "plusquamperfekt": {
+      "ich": "hatte geheiratet",
+      "du": "hattest geheiratet",
+      "er": "hatte geheiratet",
+      "wir": "hatten geheiratet",
+      "ihr": "hattet geheiratet",
+      "sie": "hatten geheiratet"
+    },
+    "futur1": {
+      "ich": "werde heiraten",
+      "du": "wirst heiraten",
+      "er": "wird heiraten",
+      "wir": "werden heiraten",
+      "ihr": "werdet heiraten",
+      "sie": "werden heiraten"
+    },
+    "futur2": {
+      "ich": "werde geheiratet haben",
+      "du": "wirst geheiratet haben",
+      "er": "wird geheiratet haben",
+      "wir": "werden geheiratet haben",
+      "ihr": "werdet geheiratet haben",
+      "sie": "werden geheiratet haben"
+    },
+    "imperativ": {
+      "du": "heirat/heirate",
+      "ihr": "heiratet",
+      "Sie": "heiraten"
+    },
+    "partizip1": "heiratend",
+    "partizip2": "geheiratet"
+    }
+]
